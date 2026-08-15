@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101010">
+    <title>MuscuApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <header>
+            <div>
+                <p class="small">BIENVENUE 👋</p>
+                <h1>Prêt à t'entraîner ?</h1>
+            </div>
+            <div class="profile">👤</div>
+        </header>
+
+        <section class="workout-card">
+            <p class="label">SÉANCE DU JOUR</p>
+            <h2>💪 PUSH</h2>
+            <p class="description">Pectoraux • Épaules • Triceps</p>
+
+            <div class="workout-info">
+                <span>🏋️ 6 exercices</span>
+                <span>⏱️ 45 min</span>
+            </div>
+
+            <button onclick="startWorkout()">COMMENCER</button>
+        </section>
+
+        <h2 class="section-title">Ta progression</h2>
+
+        <section class="stats">
+            <div class="stat">
+                <strong>12</strong>
+                <span>Séances</span>
+            </div>
+
+            <div class="stat">
+                <strong>4</strong>
+                <span>Semaines</span>
+            </div>
+
+            <div class="stat">
+                <strong>8.5k</strong>
+                <span>Kg soulevés</span>
+            </div>
+        </section>
+
+        <h2 class="section-title">Exercices rapides</h2>
+
+        <section class="exercises">
+
+            <div class="exercise">
+                <span>🏋️</span>
+                <div>
+                    <strong>Développé couché</strong>
+                    <p>Pectoraux</p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <span>🦵</span>
+                <div>
+                    <strong>Squat</strong>
+                    <p>Jambes</p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <span>💪</span>
+                <div>
+                    <strong>Curl biceps</strong>
+                    <p>Biceps</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="nav-item active">🏠<span>Accueil</span></div>
+        <div class="nav-item">📋<span>Programmes</span></div>
+        <div class="nav-item">📊<span>Progression</span></div>
+        <div class="nav-item">👤<span>Profil</span></div>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
